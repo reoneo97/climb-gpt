@@ -1,14 +1,15 @@
-# Beta GPT
+# Climb GPT
 
-Beta GPT is an application that uses Machine Learning to do perform grading of climbs.
+Climb GPT is an application that uses Machine Learning to do perform grading of climbs.
+Currently looking at how to use segment-anything library by FAIR to segment routes and then perform classification.
 
 
 # TODO
-1. Learn about YARN webpack
-2. How to do prompting
-3. Format of the masks that is returned by the model
-4. Running of Model iwth ONNX run time
-5. Incorporate model with frontend
+
+1. How to do prompting
+2. Format of the masks that is returned by the model
+3. Running of Model iwth ONNX run time
+4. Incorporate model with frontend
 
 # Design Docs
 
@@ -21,9 +22,6 @@ Things to do:
 - Clustering same coloured routes together
 - Hold Classification
 - Wall Angles
-
-
-
 
 
 ## Features Roadmap
