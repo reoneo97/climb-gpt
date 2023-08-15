@@ -1,0 +1,14 @@
+services:
+  web:
+    tty: true
+    build: ./app
+    ports: 
+      - "3000:3000"
+    volumes:
+      - "./app:/app"
+  api:
+    build: ./api
+    ports:
+      -  "8000:8000"
+    volumes:
+      - "./api:/code"

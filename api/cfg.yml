@@ -1,0 +1,5 @@
+
+segment:
+  save_path: "data/"
+  type: default
+  checkpoint: "models/segment/checkpoints/sam_vit_h_4b8939.pth"
